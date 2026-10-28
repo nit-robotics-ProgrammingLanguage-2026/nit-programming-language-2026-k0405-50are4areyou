@@ -9,7 +9,7 @@ int main(void) {
    if (scanf("%lf", &x) !=1) {
     return 1;
    }
-   a = (x * 180.0) / (pi * r);
+   a = (x * 360.0) / (pi * r);
    printf("%f\n", a);
 
    return 0;
